@@ -1,0 +1,73 @@
+body {
+    padding-bottom: 20px;
+    min-height:100%;
+}
+            
+.background {
+    background-image: url("https://i.ytimg.com/vi/NYEK_yvIWas/maxresdefault.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    color: #EEE;
+    
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:5%;
+    margin-bottom:5%;
+    height: 300px;
+}
+
+.Learn{
+    padding:50px;
+}
+
+.read{
+    background-color:rgba(45,45,45, 0.5);
+}
+
+.typing-demo {
+  width: 31ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+  background-color:rgba(45,45,45, 0.5);
+  
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+main{
+    background-color:#2D2D2D;
+}
+
+h2{
+    color:white;
+}
+
+p{
+    color:white;
+}
+
+
+footer{
+    overflow:hidden;
+    padding-bottom:10%;
+    padding-top:5%;
+}
